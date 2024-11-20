@@ -947,9 +947,15 @@ section,
   z-index: 3;
 }
 
+.hero .welcome {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+}
+
 .hero .welcome h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 700;
   color: white;
 }
